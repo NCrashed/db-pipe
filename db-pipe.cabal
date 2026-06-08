@@ -9,12 +9,10 @@ description:
     and individual queries run inside a @DBPipeM@ monad that batches
     @select@, @update@, @insert@, and @ddl@ statements into explicit
     transactional blocks (@transactional@, @transactional_@,
-    @commitAll@).
-    .
-    Originally written by Dmitry Zuykov ("voidlizard") for the
-    @hbs2@ project; this Hackage release is published from
-    @github.com/NCrashed/db-pipe@ so downstream projects can depend
-    on it without vendoring.
+    @commitAll@). Originally written by Dmitry Zuykov ("voidlizard")
+    for the @hbs2@ project; this Hackage release is published from
+    <https://github.com/NCrashed/db-pipe> so downstream projects can
+    depend on it without vendoring.
 license:            BSD-3-Clause
 license-file:       LICENSE
 author:             Dmitry Zuykov
