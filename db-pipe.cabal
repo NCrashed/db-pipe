@@ -1,6 +1,6 @@
 cabal-version:      3.0
 name:               db-pipe
-version:            0.1.0.1
+version:            0.1.0.2
 synopsis:           A pipe-like wrapper around sqlite-simple
 description:
     @db-pipe@ wraps @sqlite-simple@ in a small monadic pipe
@@ -75,8 +75,8 @@ library
 
     build-depends:    base                     >= 4.17     && < 5
                     , clock                    >= 0.8      && < 0.9
-                    , interpolatedstring-perl6 >= 1.0      && < 1.1
-                    , mtl                      >= 2.3      && < 2.4
+                    , interpolatedstring-perl6 >= 1.0.2    && < 1.1
+                    , mtl                      >= 2.2      && < 2.4
                     , stm                      >= 2.5      && < 2.6
                     , sqlite-simple            >= 0.4.18   && < 0.5
                     , text                     >= 2.0      && < 2.2
